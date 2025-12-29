@@ -2,7 +2,7 @@ const { chromium } = require('playwright');
 const axios = require('axios'); // For sending Discord notifications
 
 // Discord Webhook URL
-const discordWebhookUrl = "https://discord.com/api/webhooks/1336550685612839026/dLq1Xos3UpfV6rXb61MtnoMnW14A4MbdsAlFmQTLL4QyA1LnQ2-39TgT223RZ1Gqz7dp"; // Replace with your Discord webhook URL
+const discordWebhookUrl = "https://discord.com/api/webhooks/1455086653193326787/vV2gyb2IzM5dOIc9OoVmhC12-PfrXEebDMOhVSimGxYIdPlMnF2tGUEp1PmgSTttNHGp";
 
 // To track the previous stock state
 let previousStockState = {};
